@@ -1,0 +1,8 @@
+{
+  findAll {
+    id,
+    name,
+    age,
+    job
+  }
+}

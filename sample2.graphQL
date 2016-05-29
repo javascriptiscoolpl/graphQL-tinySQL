@@ -1,0 +1,8 @@
+{
+  groupBy (job: "teacher") {
+    id,
+    name,
+    age,
+    job
+  }
+}

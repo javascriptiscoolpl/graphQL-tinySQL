@@ -1,0 +1,32 @@
+{
+  sortByAge: sortBy (field: "age", order: "DSC") {
+    id,
+    name,
+    age,
+    job
+  }
+  groupByTeacher: groupBy (job: "teacher") {
+    id,
+    name,
+    age,
+    job
+  }
+  groupByStudent: groupBy (age: 20, job: "student") {
+    id,
+    name,
+    age,
+    job
+  }
+  findOne (id: 3) {
+    id,
+    name,
+    age,
+    job
+  }
+  findAll {
+    id,
+    name,
+    age,
+    job
+  }
+}

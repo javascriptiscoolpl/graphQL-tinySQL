@@ -1,0 +1,10 @@
+{
+  "data": {
+    "findOne": {
+      "id": 3,
+      "name": "Dan",
+      "age": 30,
+      "job": "teacher"
+    }
+  }
+}

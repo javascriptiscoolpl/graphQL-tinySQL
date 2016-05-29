@@ -1,0 +1,28 @@
+{
+  "name": "graphQL-tinySQL",
+  "version": "1.0.0",
+  "description": "tiny SQL implementation using GraphQL",
+  "main": "index.js",
+  "keywords": [
+    "GraphQL",
+    "SQL",
+    "sortBy",
+    "groupBy",
+    "findOne",
+    "findAll"
+  ],
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-graphql": "^0.5.1",
+    "graphql": "^0.6.0"
+  },
+  "scripts": {
+    "get": "npm install",
+    "ignore": "cat ./ignore.template > ./.gitignore; cat ./ignore.template > ./.npmignore",
+    "clean": "rm -rf ./node_modules",
+    "git": "git init; git add .; git commit -m \"init\"; git remote add origin https://github.com/javascriptiscoolpl/graphQL-tinySQL.git; git push -u origin master"
+  },
+  "author": "Darek L",
+  "license": "MIT",
+  "homepage": "http://javascript.iscool.pl"
+}

@@ -1,0 +1,8 @@
+{
+  findOne (id: 3) {
+    id,
+    name,
+    age,
+    job
+  }
+}

@@ -1,0 +1,8 @@
+{
+  sortBy (field: "age", order: "DSC") {
+    id,
+    name,
+    age,
+    job
+  }
+}

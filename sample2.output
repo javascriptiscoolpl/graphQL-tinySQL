@@ -1,0 +1,18 @@
+{
+  "data": {
+    "groupBy": [
+      {
+        "id": 2,
+        "name": "Jessie",
+        "age": 30,
+        "job": "teacher"
+      },
+      {
+        "id": 3,
+        "name": "Dan",
+        "age": 30,
+        "job": "teacher"
+      }
+    ]
+  }
+}

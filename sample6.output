@@ -1,0 +1,114 @@
+{
+  "data": {
+    "sortByAge": [
+      {
+        "id": 2,
+        "name": "Jessie",
+        "age": 30,
+        "job": "teacher"
+      },
+      {
+        "id": 3,
+        "name": "Dan",
+        "age": 30,
+        "job": "teacher"
+      },
+      {
+        "id": 0,
+        "name": "Dan",
+        "age": 22,
+        "job": "student"
+      },
+      {
+        "id": 1,
+        "name": "Marie",
+        "age": 20,
+        "job": "student"
+      },
+      {
+        "id": 5,
+        "name": "Jessie",
+        "age": 20,
+        "job": "student"
+      },
+      {
+        "id": 4,
+        "name": "Marie",
+        "age": 18,
+        "job": "student"
+      }
+    ],
+    "groupByTeacher": [
+      {
+        "id": 2,
+        "name": "Jessie",
+        "age": 30,
+        "job": "teacher"
+      },
+      {
+        "id": 3,
+        "name": "Dan",
+        "age": 30,
+        "job": "teacher"
+      }
+    ],
+    "groupByStudent": [
+      {
+        "id": 1,
+        "name": "Marie",
+        "age": 20,
+        "job": "student"
+      },
+      {
+        "id": 5,
+        "name": "Jessie",
+        "age": 20,
+        "job": "student"
+      }
+    ],
+    "findOne": {
+      "id": 3,
+      "name": "Dan",
+      "age": 30,
+      "job": "teacher"
+    },
+    "findAll": [
+      {
+        "id": 0,
+        "name": "Dan",
+        "age": 22,
+        "job": "student"
+      },
+      {
+        "id": 1,
+        "name": "Marie",
+        "age": 20,
+        "job": "student"
+      },
+      {
+        "id": 2,
+        "name": "Jessie",
+        "age": 30,
+        "job": "teacher"
+      },
+      {
+        "id": 3,
+        "name": "Dan",
+        "age": 30,
+        "job": "teacher"
+      },
+      {
+        "id": 4,
+        "name": "Marie",
+        "age": 18,
+        "job": "student"
+      },
+      {
+        "id": 5,
+        "name": "Jessie",
+        "age": 20,
+        "job": "student"
+      }
+    ]
+  }
+}
