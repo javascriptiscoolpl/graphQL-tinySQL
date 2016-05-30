@@ -1,6 +1,6 @@
 {
   "name": "graphQL-tinySQL",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "tiny SQL implementation using GraphQL",
   "main": "index.js",
   "keywords": [
@@ -19,7 +19,8 @@
   "scripts": {
     "build": "bash ./bash/build.bash",
     "clean": "bash ./bash/clean.bash",
-    "git": "bash ./bash/git.bash"
+    "gitinit": "bash ./bash/gitinit.bash",
+    "gitupdate": "bash ./bash/gitupdate.bash"
   },
   "author": "Darek L",
   "license": "MIT",
