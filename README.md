@@ -18,9 +18,7 @@ Start server with command:
 
 Go to http://localhost:3000/graphql and run GraphQL query.
 
-### sortBy
-
-###### sample1
+### Sample 1 - sortBy
 
 GraphQL query:
 
@@ -80,9 +78,7 @@ will output:
 
 Default order is <code>ASC</code>.
 
-### groupBy
-
-###### sample2
+### Sample 2 - groupBy
 
 GraphQL query:
 
@@ -116,7 +112,7 @@ will output:
       }
     }
 
-###### sample3
+### Sample 3 - groupBy
 
 GraphQL query:
 
@@ -150,9 +146,7 @@ will output:
       }
     }
 
-### findOne
-
-###### sample4
+### Sample 4 - findOne
 
 GraphQL query:
 
@@ -178,9 +172,7 @@ will output:
       }
     }
 
-### findAll
-
-###### sample5
+### Sample 5 - findAll
 
 GraphQL query:
 
@@ -238,9 +230,7 @@ will output:
       }
     }
 
-### All queries in one
-
-###### sample6
+### Sample 6 - all queries in one
 
 GraphQL query:
 
