@@ -16,7 +16,7 @@ Start server with command:
 
 # Usage - GraphQL query samples
 
-Go to http://localhost:3000/graphql and run GraphQL query.
+By default the GraphQL server starts at http://127.0.0.1:3000/. You can change it or go there and run any GraphQL query sample listed below.
 
 ### Sample 1 - sortBy
 

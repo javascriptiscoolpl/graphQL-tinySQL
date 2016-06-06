@@ -2,27 +2,25 @@ var graphql = require('graphql');
 var graphqlHTTP = require('express-graphql');
 var express = require('express');
 
-var cFindAll = require('./commands/findAll.js');
-var cFindOne = require('./commands/findOne.js');
-var cSortBy = require('./commands/sortBy.js');
-var cGroupBy = require('./commands/groupBy.js');
+var Schema = require('./data/schema.js');
 
-var queryType = new graphql.GraphQLObjectType({
-  name: 'Query',
-  fields: function () {
-    return {
-      findAll: cFindAll,
-      findOne: cFindOne,
-      groupBy: cGroupBy,
-      sortBy: cSortBy
-    }
-  }
-});
+var SERVER_HOST = "127.0.0.1";
+var SERVER_PORT = "3000";
 
-var Schema = new graphql.GraphQLSchema({ query: queryType });
+var SERVER_MSG  = "";
+    SERVER_MSG += "GraphQL server started at: http://";
+    SERVER_MSG += SERVER_HOST;
+    SERVER_MSG += ":";
+    SERVER_MSG += SERVER_PORT;
+    SERVER_MSG += "/";
 
-express()
-  .use('/graphql', graphqlHTTP({ schema: Schema, graphiql: true }))
-  .listen(3000);
+var server = express();
 
-console.log('GraphQL server running on http://localhost:3000/graphql');
+server.use('/', graphqlHTTP({
+    schema: Schema,
+    graphiql: true
+  }));
+
+server.listen(SERVER_PORT, SERVER_HOST, function () {
+    console.log(SERVER_MSG);
+  });

@@ -1,7 +1,7 @@
 var graphql = require('graphql');
 
-var dataJSON = require('../data.json');
-var dataTypes = require('../data.types');
+var dataJSON = require('../data/data.json');
+var dataTypes = require('../data/types.js');
 
 module.exports = {
   type: new graphql.GraphQLList(dataTypes),
